@@ -1,0 +1,115 @@
+body
+{
+    font-family: Play;
+}
+
+main
+{
+    font-family: Play;
+}
+aside
+{
+    padding : 5px;
+}
+
+#encabezado 
+{
+    background-color: #2596be;
+    color: white;
+    margin-top: 5px;
+}
+
+h1
+{
+    text-align: center;
+    text-shadow: black 5px 5px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+nav
+{
+    color:white;
+    padding: 2px;
+    margin-bottom:2px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+nav ul li
+{
+    display: inline;
+    margin: 10px;
+}
+
+#contenedor
+{
+    display: grid;
+    grid-template-columns: 9fr 0fr 3fr;
+    grid-template-rows: 50px auto;
+    gap: 0px;
+}
+
+#principal
+{
+    display: grid;
+    grid-template-columns: 2.6fr 2fr 0fr;
+    grid-template-rows: 50px auto;
+    gap: 10px;
+}
+
+#contenedor h2
+{
+    text-align: center;
+}
+
+#contenedor section
+{
+    border-radius: 10px;
+    padding: 15px;
+    margin-top:10px;
+}
+
+#videotutoriales
+{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color:lightgray;
+}
+
+#ofertas
+{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color:lightsteelblue;
+}
+
+#recursos
+{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    background-color:lightgoldenrodyellow;
+    margin-bottom: 258px;
+}
+
+#pie
+{
+    background-color: #2596be;
+    text-align: center; 
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
